@@ -20,6 +20,7 @@ window_rect = (0, 0, 0, 0)
 last_click_time = 0
 click_debounce = 0.1  # 100ms
 
+
 def on_press(key):
     global mouse_enabled
     try:
