@@ -1,6 +1,6 @@
 # Welcome to my practice projects
 
-These are small, self-contained projects that I work on to further my coding skills across multiple languages. Here's an outline of each project:
+These are small, self-contained projects that I work on to further my coding skills across multiple languages. Here's an outline of each project
 
 ## Year 1
 
