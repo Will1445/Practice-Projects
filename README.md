@@ -6,15 +6,15 @@ These are small, self-contained projects that I work on to further my coding ski
 
 ### Epicycles
 
-- A visualisation of how Fourier can be used to model 2D images.
-- Simply run the file and click to begin drawing out a shape.
-- Click again to finish drawing and the program will automatically draw out the shape using rotating circles of constant rotational velocity.
+- A visualisation of how Fourier can be used to model 2D images
+- Simply run the file and click to begin drawing out a shape
+- Click again to finish drawing and the program will automatically draw out the shape using rotating circles of constant rotational velocity
 
 ### Planet orbits
 
-- A collection of Pygame simulations of the interactions of planets.
-- There are some preset scenarios like the 2- and 3-planet systems, a 3-body binary star system, and a model for the solar system.
-- The `n_planet_system` files can be used to simulate any number of planets, even with your mouse acting as a point of gravitational attraction.
+- A collection of Pygame simulations of the interactions of planets
+- There are some preset scenarios like the 2- and 3-planet systems, a 3-body binary star system, and a model for the solar system
+- The `n_planet_system` files can be used to simulate any number of planets, even with your mouse acting as a point of gravitational attraction
 
 ### Superconductor Modelling
 
