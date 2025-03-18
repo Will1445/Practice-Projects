@@ -16,7 +16,7 @@ y_data = []
 trace = []
 t = 0
 state = 0
-temp = 1
+
 pygame.init()
 screen = pygame.display.set_mode((width, height))
 
