@@ -123,7 +123,7 @@ def mirror_mouse():
                          window_rect[1] <= current_y <= window_rect[1] + window_rect[3])
             
             if mouse_enabled and in_window:
-                # Movement handling (same as before)
+                # Movement handling 
                 if current_time - last_sent >= move_interval:
                     norm_x = current_x / screen_w
                     norm_y = current_y / screen_h
@@ -132,7 +132,7 @@ def mirror_mouse():
                         prev_coords = (norm_x, norm_y)
                         last_sent = current_time
                 
-                # Fixed click handling
+                # Click handling
                 if mouse_listener.left_state != last_left_state:
                     action = 'down' if mouse_listener.left_state else 'up'
                     client.sendall(f"click 1 {action}\n".encode())

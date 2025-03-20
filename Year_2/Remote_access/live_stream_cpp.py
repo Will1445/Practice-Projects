@@ -128,6 +128,7 @@ def mirror_mouse():
         print(f"Mouse error: {str(e)}")
     finally:
         client.close()
+        
 
 def main():
     global running

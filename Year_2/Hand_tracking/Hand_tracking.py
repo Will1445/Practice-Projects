@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
-import pyautogui  # Simulate keyboard shortcuts
-import time     # For tracking time
+import pyautogui  
+import time    
 
 # Initialize MediaPipe Hands and drawing utilities.
 mp_hands = mp.solutions.hands

@@ -38,6 +38,7 @@ These are small, self-contained projects that I work on to further my coding ski
 - A bot to automatically solve Spanish Duolingo exercises
 - To use, open Chrome in debug mode and start a practice session before starting the file
 - Current only a few questions have automatic answers, shown in the utils folder
+- `Fill_in_the_blank.py` is currently not functioning, a new sentence structure model with an API is needed
 - The questions and languages available to be solved will be expanded
 
 ### Hand tracking

@@ -41,4 +41,4 @@ while True:
         print('Question not yet defined')
 
 
-    time.sleep(0.5)  # Check for new questions every second (adjust as needed)
+    time.sleep(0.5)  # Check for new questions every 0.5 seconds
