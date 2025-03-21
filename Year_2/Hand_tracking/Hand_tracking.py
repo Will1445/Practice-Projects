@@ -95,6 +95,7 @@ while True:
                 finger_to_track = (landmarks[mp_hands.HandLandmark.INDEX_FINGER_TIP].x +
                                    landmarks[mp_hands.HandLandmark.MIDDLE_FINGER_TIP].x) / 2
 
+
                 # If we have a previous position, compare to detect lateral movement.
                 if prev_finger_x is not None:
                     dx = finger_to_track - prev_finger_x
