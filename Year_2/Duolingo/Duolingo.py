@@ -20,7 +20,7 @@ from utils.Fill_in_the_blank import fill_in_the_blank
 chrome_options = Options()
 chrome_options.debugger_address = "127.0.0.1:9222"
 
-service = Service("/opt/homebrew/Caskroom/chromedriver/133.0.6943.126/chromedriver-mac-arm64/chromedriver") 
+service = Service("/opt/homebrew/bin/chromedriver") 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Variable to store the last answered question
