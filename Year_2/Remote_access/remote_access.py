@@ -1,6 +1,6 @@
 import socket
 
-HOST = "192.168.1.195"  # Ubuntu's IP address
+HOST = "192.168.1.129"  # Ubuntu's IP address
 PORT = 5000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
