@@ -3,7 +3,7 @@ import pyautogui
 import time
 
 # Phone number (including country code) and message
-phone_number = "+447541717922"  
+phone_number = ""  
 message = "Wadup"
 
 
