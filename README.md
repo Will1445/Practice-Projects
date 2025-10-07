@@ -53,3 +53,9 @@ These are small, self-contained projects that I work on to further my coding ski
 - This is set to receive data from a c++ compiled executable on the target machine
 - The code and executable on the target machine are not present on this repository but may be added later
 - This directory contains its own README to explain how to use the code for the desired effect
+
+### TTS
+
+- A system for automatically making tik-tok style videos using a tts program 
+- currently uses Google Cloud TTS (https://console.cloud.google.com/iam-admin/quotas?inv=1&invt=AbyXFw&project=snappy-climber-460918-v0)
+- Remember to activate the credentials before running the program (export export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-file.json") 
