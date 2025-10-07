@@ -17,7 +17,7 @@ Just typing alone will send the text as keystrokes to the system. To use specifi
 
 For a live view of the target system, ensure the correct screen width and height are set in live_stream_target and run live_stream_target.py on the target computor using: 
 
-cmd sudo nohup /home/will-crow/Desktop/Python/Remote_access/myenv/bin/python live_stream_target.py &
+cmd sudo nohup /path to python file/python live_stream_target.py &
 
 (ensure that you cd to the correct directory). Now run live_stream.py in a seperate terminal, the connection should establish and appear. To begin mirroring the mouse and mouse clicks, press f2 and the same to stop. Press q to quit the streaming.
 
