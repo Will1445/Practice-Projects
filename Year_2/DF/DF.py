@@ -183,7 +183,7 @@ while running:
     label = font.render("Rotation Speed", True, WHITE)
     screen.blit(label, (slider_rect.left, slider_rect.top - 25))
 
-    # Frequency readout below graph
+    # Frequency readout
     freq_text = font.render(f"Frequency: {observed_freq:.2f} Hz", True, WHITE)
     text_rect = freq_text.get_rect(midtop=(graph_rect.centerx, graph_rect.bottom + 5))
     screen.blit(freq_text, text_rect)
